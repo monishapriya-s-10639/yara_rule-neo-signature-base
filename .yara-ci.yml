@@ -1,18 +1,9 @@
 files:
-    accept:
-        - "**.yar"
+  accept:
+    - "**.yar"
+
 variables:
-    filename: ""
-    filepath: ""
-    extension: ""
-    filetype: ""
-
-checks:
-  - syntax
-  - false_positives
-  - false_negatives
-  - performance
-
-fail_on:
-  syntax_errors: true
-  false_positives: true
+  filename: ""
+  filepath: ""
+  extension: ""
+  filetype: ""
